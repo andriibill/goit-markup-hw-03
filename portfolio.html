@@ -15,7 +15,10 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/modern-normalize.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="css/style.css" />
   </head>
 
@@ -62,97 +65,111 @@
     <main>
       <!-- Projects section-->
       <section class="portfolio-section">
-        <h1 class="visually-hidden">Portfolio</h1>
-        <ul class="tabs-row">
-          <li class="tab-list-item">
-            <button type="button" class="tab-item">Все</button>
-          </li>
-          <li class="tab-list-item">
-            <button type="button" class="tab-item">Веб-сайты</button>
-          </li>
-          <li class="tab-list-item">
-            <button type="button" class="tab-item">Приложения</button>
-          </li>
-          <li class="tab-list-item">
-            <button type="button" class="tab-item">Дизайн</button>
-          </li>
-          <li class="tab-list-item">
-            <button type="button" class="tab-item">Маркетинг</button>
-          </li>
-        </ul>
-        <ul class="cases-grid">
-          <li class="cases-item">
-            <img src="./images/technokriak.jpeg" alt="case-image" width="370" />
-            <div class="case-text">
-              <h2 class="case-title">Технокряк</h2>
-              <h3 class="case-type">Веб-сайт</h3>
-            </div>
-          </li>
-          <li class="cases-item">
-            <img src="./images/new-orlean.jpeg" alt="case-image" width="370" />
-            <div class="case-text">
-              <h2 class="case-title">Постер New Orlean vs Golden Star</h2>
-              <h3 class="case-type">Дизайн</h3>
-            </div>
-          </li>
-          <li class="cases-item">
-            <img src="./images/seafood.jpeg" alt="case-image" width="370" />
-            <div class="case-text">
-              <h2 class="case-title">Ресторан Seafood</h2>
-              <h3 class="case-type">Приложение</h3>
-            </div>
-          </li>
-          <li class="cases-item">
-            <img src="./images/prime.jpeg" alt="case-image" width="370" />
-            <div class="case-text">
-              <h2 class="case-title">Проект Prime</h2>
-              <h3 class="case-type">Маркетинг</h3>
-            </div>
-          </li>
-          <li class="cases-item">
-            <img src="./images/boxes.jpeg" alt="case-image" width="370" />
-            <div class="case-text">
-              <h2 class="case-title">Проект Boxes</h2>
-              <h3 class="case-type">Приложение</h3>
-            </div>
-          </li>
-          <li class="cases-item">
-            <img src="./images/inspiration.jpeg" alt="case-image" width="370" />
-            <div class="case-text">
-              <h2 class="case-title">Inspiration has no Borders</h2>
-              <h3 class="case-type">Веб-сайт</h3>
-            </div>
-          </li>
-          <li class="cases-item">
-            <img
-              src="./images/limited-edition.jpeg"
-              alt="case-image"
-              width="370"
-            />
-            <div class="case-text">
-              <h2 class="case-title">Издание Limited Edition</h2>
-              <h3 class="case-type">Дизайн</h3>
-            </div>
-          </li>
-          <li class="cases-item">
-            <img src="./images/lab.jpeg" alt="case-image" width="370" />
-            <div class="case-text">
-              <h2 class="case-title">Проект LAB</h2>
-              <h3 class="case-type">Маркетинг</h3>
-            </div>
-          </li>
-          <li class="cases-item">
-            <img
-              src="./images/growing-business.jpeg"
-              alt="case-image"
-              width="370"
-            />
-            <div class="case-text">
-              <h2 class="case-title">Growing Business</h2>
-              <h3 class="case-type">Приложение</h3>
-            </div>
-          </li>
-        </ul>
+        <div class="portfolio-section-container">
+          <h1 class="visually-hidden">Portfolio</h1>
+          <ul class="tabs-row">
+            <li class="tab-list-item">
+              <button type="button" class="tab-item">Все</button>
+            </li>
+            <li class="tab-list-item">
+              <button type="button" class="tab-item">Веб-сайты</button>
+            </li>
+            <li class="tab-list-item">
+              <button type="button" class="tab-item">Приложения</button>
+            </li>
+            <li class="tab-list-item">
+              <button type="button" class="tab-item">Дизайн</button>
+            </li>
+            <li class="tab-list-item">
+              <button type="button" class="tab-item">Маркетинг</button>
+            </li>
+          </ul>
+          <ul class="cases-grid">
+            <li class="cases-item">
+              <img
+                src="./images/technokriak.jpeg"
+                alt="case-image"
+                width="370"
+              />
+              <div class="case-text">
+                <h2 class="case-title">Технокряк</h2>
+                <h3 class="case-type">Веб-сайт</h3>
+              </div>
+            </li>
+            <li class="cases-item">
+              <img
+                src="./images/new-orlean.jpeg"
+                alt="case-image"
+                width="370"
+              />
+              <div class="case-text">
+                <h2 class="case-title">Постер New Orlean vs Golden Star</h2>
+                <h3 class="case-type">Дизайн</h3>
+              </div>
+            </li>
+            <li class="cases-item">
+              <img src="./images/seafood.jpeg" alt="case-image" width="370" />
+              <div class="case-text">
+                <h2 class="case-title">Ресторан Seafood</h2>
+                <h3 class="case-type">Приложение</h3>
+              </div>
+            </li>
+            <li class="cases-item">
+              <img src="./images/prime.jpeg" alt="case-image" width="370" />
+              <div class="case-text">
+                <h2 class="case-title">Проект Prime</h2>
+                <h3 class="case-type">Маркетинг</h3>
+              </div>
+            </li>
+            <li class="cases-item">
+              <img src="./images/boxes.jpeg" alt="case-image" width="370" />
+              <div class="case-text">
+                <h2 class="case-title">Проект Boxes</h2>
+                <h3 class="case-type">Приложение</h3>
+              </div>
+            </li>
+            <li class="cases-item">
+              <img
+                src="./images/inspiration.jpeg"
+                alt="case-image"
+                width="370"
+              />
+              <div class="case-text">
+                <h2 class="case-title">Inspiration has no Borders</h2>
+                <h3 class="case-type">Веб-сайт</h3>
+              </div>
+            </li>
+            <li class="cases-item">
+              <img
+                src="./images/limited-edition.jpeg"
+                alt="case-image"
+                width="370"
+              />
+              <div class="case-text">
+                <h2 class="case-title">Издание Limited Edition</h2>
+                <h3 class="case-type">Дизайн</h3>
+              </div>
+            </li>
+            <li class="cases-item">
+              <img src="./images/lab.jpeg" alt="case-image" width="370" />
+              <div class="case-text">
+                <h2 class="case-title">Проект LAB</h2>
+                <h3 class="case-type">Маркетинг</h3>
+              </div>
+            </li>
+            <li class="cases-item">
+              <img
+                src="./images/growing-business.jpeg"
+                alt="case-image"
+                width="370"
+              />
+              <div class="case-text">
+                <h2 class="case-title">Growing Business</h2>
+                <h3 class="case-type">Приложение</h3>
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
 

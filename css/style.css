@@ -71,14 +71,13 @@ h3 {
   margin: 0 auto 0 auto;
   display: flex;
   flex-direction: row;
-  height: 80px;
   justify-content: space-between;
   align-items: center;
 }
 
 .navbar {
   display: flex;
-  vertical-align: middle;
+  align-items: center;
 }
 
 .logo {
@@ -87,9 +86,10 @@ h3 {
   font-weight: bold;
   font-size: 26px;
   letter-spacing: 0.03em;
-  margin-right: 50px;
+  margin-right: 95px;
   text-decoration: none;
   color: inherit;
+  height: 32px;
 }
 
 .logo-web {
@@ -105,10 +105,15 @@ h3 {
 }
 
 .menu-item {
-  margin: 0 25px 0 25px;
+  margin: 0 50px 0 0px;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
+  padding: 32px 0px 32px 0px;
+}
+
+.menu-item:last-child {
+  margin: 0px;
 }
 
 .link-menu {
@@ -200,7 +205,7 @@ h3 {
 .advantages-section-container {
   width: 1200px;
   margin: 0px auto 0px auto;
-  padding: 94px 0px 94px 0px;
+  padding: 94px 15px 94px 15px;
 }
 
 .visually-hidden {
@@ -226,7 +231,7 @@ h3 {
 
 .advatages-items {
   width: 270px;
-  margin: 0px 15px 0px 15px;
+  margin: 0px 30px 0px 0px;
 }
 
 .advantages-list .advatages-items:first-child {
@@ -263,7 +268,7 @@ h3 {
 .what-we-do-section-container {
   width: 1200px;
   margin: 0 auto 0px auto;
-  padding-bottom: 94px;
+  padding: 0px 15px 94px 15px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -294,7 +299,6 @@ h3 {
 
 .team-section {
   margin: 0px auto 0px auto;
-  padding: 94px 0px 94px 0px;
   background-color: var(--background-color-light);
   display: flex;
   flex-direction: column;
@@ -304,6 +308,7 @@ h3 {
 
 .team-section-container {
   width: 1200px;
+  padding: 94px 15px 94px 15px;
 }
 
 .team-list {
@@ -316,7 +321,7 @@ h3 {
 }
 
 .team-item {
-  margin: 0 15px 0 15px;
+  margin: 0 30px 0 0px;
   background-color: var(--main-white-color);
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
@@ -353,16 +358,17 @@ h3 {
 }
 
 .team-member-text {
-  margin: 30px 60px 30px 60px;
+  padding: 30px 60px 30px 60px;
 }
 
 /* Portfolio Page */
 
-.portfolio-section {
+.portfolio-section-container {
   align-content: center;
   text-align: center;
   width: 1200px;
-  margin: 100px auto 100px auto;
+  margin: 0px auto 0px auto;
+  padding: 100px 15px 100px 15px;
 }
 
 .tabs-row {
@@ -374,7 +380,7 @@ h3 {
 }
 
 .tab-list-item {
-  margin: 0 4px 0 4px;
+  margin: 0 8px 0 0px;
 }
 
 .tabs-row .tab-list-item:first-child {
@@ -481,22 +487,25 @@ h3 {
 .footer-content {
   width: 1200px;
   margin: 0 auto 0 auto;
-  padding: 60px 0 60px 0;
+  padding: 60px 15px 60px 15px;
 }
 
+.logo-footer {
+  margin-bottom: 20px;
+}
 .footer-contacts {
   font-style: normal;
 }
 
 .footer-contacts-list {
   list-style: none;
-  padding: 20px 0px 0px 0px;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
   margin: 0px;
+  padding: 0px;
 }
 
 .footer-contact-item {

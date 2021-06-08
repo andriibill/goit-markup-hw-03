@@ -78,6 +78,7 @@ h3 {
 .navbar {
   display: flex;
   align-items: center;
+  height: 80px;
 }
 
 .logo {
@@ -109,14 +110,13 @@ h3 {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  padding: 32px 0px 32px 0px;
 }
 
 .menu-item:last-child {
   margin: 0px;
 }
 
-.link-menu {
+.menu-link {
   text-decoration: none;
   color: inherit;
   font-weight: 500;
@@ -124,6 +124,18 @@ h3 {
   line-height: 16px;
   letter-spacing: 0.02em;
   color: var(--main-black-color);
+  padding: 32px 0px 32px 0px;
+}
+
+.menu-link-active {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--prety-color);
+  padding: 32px 0px 32px 0px;
 }
 
 .contacts-header {
@@ -143,6 +155,10 @@ h3 {
   text-align: right;
 }
 
+.contacts-item-header:first-child {
+  margin-left: 0px;
+}
+
 .contacts-link {
   text-decoration: none;
   color: inherit;
@@ -152,6 +168,7 @@ h3 {
   line-height: 16px;
   letter-spacing: 0.02em;
   color: var(--grey-color);
+  padding: 32px 0px 32px 0px;
 }
 
 /* Hero section */
@@ -202,10 +219,14 @@ h3 {
 
 /* Advantages section */
 
+.advantages-section {
+  padding: 94px 0px 94px 0px;
+}
+
 .advantages-section-container {
   width: 1200px;
   margin: 0px auto 0px auto;
-  padding: 94px 15px 94px 15px;
+  padding: 0px 15px 0px 15px;
 }
 
 .visually-hidden {
@@ -265,10 +286,14 @@ h3 {
 
 /* What we do section */
 
+.what-we-do-section {
+  padding: 0px 0px 94px 0px;
+}
+
 .what-we-do-section-container {
   width: 1200px;
   margin: 0 auto 0px auto;
-  padding: 0px 15px 94px 15px;
+  padding: 0px 15px 0px 15px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -304,11 +329,12 @@ h3 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 94px 0px 94px 0px;
 }
 
 .team-section-container {
   width: 1200px;
-  padding: 94px 15px 94px 15px;
+  padding: 0px 15px 0px 15px;
 }
 
 .team-list {
@@ -363,12 +389,16 @@ h3 {
 
 /* Portfolio Page */
 
+.portfolio-section {
+  padding: 94px 0px 94px 0px;
+}
+
 .portfolio-section-container {
   align-content: center;
   text-align: center;
   width: 1200px;
   margin: 0px auto 0px auto;
-  padding: 100px 15px 100px 15px;
+  padding: 0px 15px 0px 15px;
 }
 
 .tabs-row {
@@ -410,6 +440,26 @@ h3 {
 
 .tab-item:hover,
 .tab-item:focus {
+  background-color: var(--prety-color);
+  color: var(--main-white-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.08);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.tab-item-active {
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  opacity: 1;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 8px 22px 8px 22px;
   background-color: var(--prety-color);
   color: var(--main-white-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1);
@@ -482,12 +532,13 @@ h3 {
 .footer-section {
   background-color: var(--background-color-dark);
   color: var(--main-white-color);
+  padding: 60px 0px 60px 0px;
 }
 
 .footer-content {
   width: 1200px;
   margin: 0 auto 0 auto;
-  padding: 60px 15px 60px 15px;
+  padding: 0px 15px 0px 15px;
 }
 
 .logo-footer {

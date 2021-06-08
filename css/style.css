@@ -481,15 +481,14 @@ img {
   flex-wrap: wrap;
   padding: 0px;
   justify-content: space-between;
-  margin: 0px 0px 0px 0px;
-  padding-top: 50px;
+  margin: 50px 0px 0px 0px;
 }
 
 .cases-item {
   background: var(--main-white-color);
   box-sizing: border-box;
   width: 370px;
-  margin: 0px 15px 30px 15px;
+  margin: 0px 30px 30px 0px;
   display: flex;
   flex-direction: column;
 }

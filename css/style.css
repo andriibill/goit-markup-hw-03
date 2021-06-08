@@ -10,6 +10,12 @@ h3 {
   padding: 0px;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 /* Variables */
 :root {
   --prety-color: #2196f3;
@@ -371,6 +377,7 @@ h3 {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--main-black-color);
+  margin-bottom: 16px;
 }
 
 .team-member-ocupation {
@@ -381,6 +388,7 @@ h3 {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--grey-color);
+  margin: 0px 0px 16px 0px;
 }
 
 .team-member-text {
